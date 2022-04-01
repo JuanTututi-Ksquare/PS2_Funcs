@@ -153,7 +153,6 @@ a {
 @media (max-width: 1200px) {
   .side-container {
     display: none;
-    flex: 0 0;
   }
   .login {
     flex: 1;
