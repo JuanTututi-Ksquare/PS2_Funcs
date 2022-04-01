@@ -15,57 +15,60 @@
     />
   </head>
   <body>
-    <div class="container">
-      <div class="app">
-        <div class="login">
+    <div class="container flex row">
+      <div class="app flex row">
+        <div class="login flex column full-width full-height">
           <h2>Welcome back</h2>
           <h5>Welcome back! Please enter your details</h5>
           <form action="#" method="post">
-            <label for="email">Email</label><br />
+            <label for="email" class="bold">Email</label>
             <input
               type="email"
               name="email"
               id="email"
               placeholder="Enter your email"
-            /><br />
-            <label for="pass">Password</label><br />
-            <input type="password" name="pass" id="pass" /><br />
-            <div class="login-options">
+              class="full-width"
+            />
+            <label for="pass" class="bold">Password</label>
+            <input type="password" name="pass" id="pass" class="full-width"/>
+            <div class="login-options flex row">
               <input type="checkbox" name="remember" id="remember" />
-              <label for="remember">Remember me for 30 days</label>
-              <a href="#">Forgot Password?</a>
+              <label for="remember" class="bold same-length">Remember me for 30 days</label>
+              <a href="#" class="bold same-length">Forgot Password?</a>
             </div>
-            <div class="sign-in">
-              <input type="submit" value="Sign In" />
-              <p>Don't have an account? <a href="#">Sign up for free</a></p>
+            <div class="sign-in flex column">
+              <input type="submit" value="Sign In" class="full-width" />
+              <p>Don't have an account? <a href="#" class="bold">Sign up for free</a></p>
               <figure>
                 <img src="./img/underline.png" alt="An image of an underline" />
               </figure>
             </div>
           </form>
         </div>
-        <div class="side">
-          <img src="./img/login-background.jpg" alt="A developer" />
-          <div class="testimonials">
-            <div class="testimonial-info">
-              <h2>
-                "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint
-                ab neque nobis id, quis."
-              </h2>
-              <p>★★★★★</p>
-              <h3>Rob Blackwood</h3>
-              <div class="testimonial-container">
-                <div class="testimonial-extra">
-                  <h4>Web Developer</h4>
-                  <h5>KTI Tech Team</h5>
-                </div>
-                <div class="testimonial-actions">
-                  <button>←</button>
-                  <button>→</button>
+        <div class="side-container same-length">
+          <figure class="side full-width full-height">
+            <img src="./img/background2.jpg" alt="A developer" class="full-width full-height"/>
+            <div class="testimonials flex row">
+              <div class="testimonial-info flex column">
+                <h2 class="bold">
+                  "Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Sint ab neque nobis id, quis."
+                </h2>
+                <p>★★★★★</p>
+                <h3>Rob Blackwood</h3>
+                <div class="flex row">
+                  <div class="testimonial-extra same-length">
+                    <h4>Web Developer</h4>
+                    <h5>KTI Tech Team</h5>
+                  </div>
+                  <div class="testimonial-actions same-length">
+                    <button>←</button>
+                    <button>→</button>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
+          </figure>
         </div>
       </div>
     </div>

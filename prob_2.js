@@ -14,7 +14,7 @@ const iterate = (arr) => {
   return count;
 }
 
-iterate([4, 2, 1, 7, 1]);
+iterate([4, 2, 1, 7, 3]);
 iterate([7,1,7,1]);
 iterate([3,1,2,1,5,5,5]);
 iterate([5,2,1,4,8]);
