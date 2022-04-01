@@ -1,0 +1,190 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    background-color: rgb(238, 238, 238);
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.app {
+    margin: 40px;
+    display: flex;
+    flex-direction: row;
+}
+
+.login {
+    flex: 0.7 1 0;
+    margin: auto;
+    padding: 200px 100px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+
+.login h2 {
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+}
+
+.login h5 {
+    color: rgb(168, 168, 168);
+    margin-top: 5px;
+    padding-top: 5px;
+    padding-bottom: 20px;
+}
+
+.login label {
+    font-weight: 600;
+    font-size: 14px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.login form > input {
+    border: 1px solid rgb(199, 199, 199);
+    border-radius: 3px;
+    width: 98%;
+    margin-top: 2px;
+    margin-bottom: 20px;
+    margin-right: -20px;
+    margin-left: 2px;
+    padding: 8px 3px;
+}
+
+.login-options {
+    margin-bottom: 20px;
+}
+
+.login .login-options {
+    display: flex;
+    flex-direction: row;
+}
+
+.login .login-options label {
+    flex: 1 1 0;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.login .login-options a {
+    flex: 1 1 0;
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+    font-weight: 600;
+    text-align: end;
+}
+
+.sign-in {
+    display: flex;
+    flex-direction: column;
+}
+
+.sign-in input{
+    width: 100%;
+    padding: 7px 0;
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.sign-in p {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 0;
+    font-size: 12px;
+    color: rgb(134, 134, 134);
+}
+
+.sign-in p a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+figure{
+    margin-top: 0px;
+    width: 70%;
+    text-align: end;
+}
+
+figure img {
+    max-width: 70px;
+}
+
+.sign-in p::after{
+   height: 12px;
+   background: rgba(7, 151, 144, 0.5);
+}
+
+.side {
+    flex: 1 1 0;
+    overflow: hidden;
+    position: relative;
+}
+
+.side img {
+    position: absolute;
+    z-index: -1;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.testimonials {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    margin: 0 30px;
+}
+
+.testimonial-info{
+    color: white;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.459);
+    padding: 0 10px;
+}
+
+.testimonial-info h2{
+    font-weight: 600;
+}
+
+.testimonial-info > p {
+    text-align: end;
+}
+
+.testimonial-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.tesimonial-extra{
+    flex: 1 1 0;
+}
+
+.testimonial-extra h4 {
+    margin-top: 0;
+}
+
+.testimonial-actions{
+    flex: 1 1 0;
+    text-align: end;
+}
+
+.testimonial-actions button {
+    background-color: rgba(36, 36, 36, 0.233);
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 10px 12px;
+}
+
+
