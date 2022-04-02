@@ -17,42 +17,46 @@
   <body>
     <div class="container flex row">
       <div class="app flex row">
-        <div class="login flex column full-width full-height">
-          <h2>Welcome back</h2>
-          <h5>Welcome back! Please enter your details</h5>
-          <form action="#" method="post">
-            <label for="email" class="bold">Email</label>
-            <input
-              type="email"
-              name="email"
-              id="email"
-              placeholder="Enter your email"
-              class="full-width"
-            />
-            <label for="pass" class="bold">Password</label>
-            <input type="password" name="pass" id="pass" class="full-width"/>
-            <div class="login-options flex row">
-              <input type="checkbox" name="remember" id="remember" />
-              <label for="remember" class="bold same-length">Remember me for 30 days</label>
-              <a href="#" class="bold same-length">Forgot Password?</a>
-            </div>
-            <div class="sign-in flex column">
-              <input type="submit" value="Sign In" class="full-width" />
-              <p>Don't have an account? <a href="#" class="bold">Sign up for free</a></p>
-              <figure>
-                <img src="./img/underline.png" alt="An image of an underline" />
-              </figure>
-            </div>
-          </form>
+        <div class="login flex column same-length">
+          <div class="login-container">
+            <h2>Welcome back</h2>
+            <h5>Welcome back! Please enter your details</h5>
+            <form action="#" method="post">
+              <label for="email" class="bold">Email</label>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Enter your email"
+                class="full-width"
+              />
+              <label for="pass" class="bold">Password</label>
+              <input type="password" name="pass" id="pass" class="full-width" />
+              <div class="login-options flex row">
+                <input type="checkbox" name="remember" id="remember" />
+                <label for="remember" class="bold same-length"
+                  >Remember me for 30 days</label
+                >
+                <a href="#" class="bold same-length">Forgot Password?</a>
+              </div>
+              <div class="sign-in flex column">
+                <input type="submit" value="Sign In" class="full-width" />
+                <p>
+                  Don't have an account?
+                  <a href="#" class="bold">Sign up for free</a>
+                </p>
+              </div>
+            </form>
+          </div>
         </div>
-        <div class="side-container same-length">
-          <figure class="side full-width full-height">
-            <img src="./img/background2.jpg" alt="A developer" class="full-width full-height"/>
-            <div class="testimonials flex row">
-              <div class="testimonial-info flex column">
+        <div class="side-container flex row same-length">
+          <div class="side flex row">
+            <div class="testimonials flex column">
+              <div class="testimonial-info">
                 <h2 class="bold">
-                  "Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Sint ab neque nobis id, quis."
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Consequatur rerum odit asperiores temporibus? Esse, harum
+                  repudiandae eligendi cupiditate.
                 </h2>
                 <p>★★★★★</p>
                 <h3>Rob Blackwood</h3>
@@ -68,7 +72,7 @@
                 </div>
               </div>
             </div>
-          </figure>
+          </div>
         </div>
       </div>
     </div>
